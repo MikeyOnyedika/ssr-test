@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Stony Island NF";
+  src: url("./Stony\ Island\ NF.ttf");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Stony Island NF", serif;
+}
+
+.text-primary {
+  color: #801a21 !important;
+}
+
+.text-secondary {
+  background: #28292c !important;
+}
+
+.bg-primary {
+  background: #801a21 !important;
+}
+
+.bg-secondary {
+  background: #28292c !important;
+}
+
+.btn-primary {
+  background: #801a21;
+  border: #801a21;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background: #73171d !important;
+  border: #73171d !important;
+}
+
+.btn-secondary {
+  background: #28292c;
+  border: #28292c;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:focus {
+  background: #232427 !important;
+  border: #232427 !important;
+}
+
+a {
+  color: #801a21;
+}
+
+a:hover {
+  color: #73171d;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+footer a {
+  color: red;
+}
+
+footer a:hover {
+  color: white;
+}
