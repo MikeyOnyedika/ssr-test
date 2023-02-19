@@ -3,11 +3,6 @@ import React from 'react'
 import { PageShell } from './PageShell'
 import { escapeInject, dangerouslySkipEscape } from 'vite-plugin-ssr'
 import logoUrl from '../assets/logo.png'
-import '../assets/style.css?inline'
-// import bootstrapCSS from '..//bootstrap.min.css?inline'
-// import bootstrapJS from '../assets/bootstrap.bundle.min.js'
-import bootstrapCSS from 'bootstrap/dist/css/bootstrap.min.css?inline'
-import bootstrapJS from 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
 
 export { render }
@@ -35,7 +30,6 @@ async function render(pageContext) {
         <title>${title}</title>
 
         <link rel="icon" href="${logoUrl}" />
-        <link rel="stylesheet" href="${bootstrapJS}" />
       </head>
       <body>
         <div id="page-view">${dangerouslySkipEscape(pageHtml)}</div>
